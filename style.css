@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", "Regular";
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    max-width: 1440px;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+.imagem{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemDePerfil{
+    border-radius: 360px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.SubTittle{
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button-1 {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Inter", "Regular";
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 5px;
+}
+
+.button-1:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
